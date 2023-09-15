@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica: Mi primera aplicación</title>
+    <!-- Enlazamos Bootstrap (CDN) -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Práctica: Mi primera aplicación</h1>
+
+        <div class="jumbotron">
+            <h2 class="mb-4">Objetivo</h2>
+            <p>Que los alumnos se familiaricen con el entorno de desarrollo y trabajen en equipo para crear una pequeña aplicación.</p>
+        </div>
+
+        <div class="accordion" id="practicaAccordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Parte 1: Presentación y formación de equipos
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#practicaAccordion">
+                    <div class="card-body">
+                        1. Introducción (5 minutos): Breve presentación sobre lo que harán en la práctica.<br>
+                        2. Formación de equipos (10 minutos): Divide a los alumnos en equipos de 3 o 4 personas.
+                    </div>
+                </div>
+            </div>
+            <!-- ... Aquí irían el resto de las partes de la misma manera ... -->
+
+        </div>
+
+        <div class="mt-5">
+            <h2>Pasos de entrega</h2>
+            <ol>
+                <li>Fork del repositorio principal en tu cuenta GitHub.</li>
+                <li>Clona el repositorio a tu máquina local.</li>
+                <li>Realiza los cambios y desarrollos necesarios para la práctica.</li>
+                <li>Sube los cambios a tu repositorio en GitHub.</li>
+                <li>Realiza un "pull request" al repositorio principal para revisión.</li>
+            </ol>
+        </div>
+
+    </div>
+
+    <!-- Enlazamos scripts de Bootstrap y dependencias (jQuery y Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
